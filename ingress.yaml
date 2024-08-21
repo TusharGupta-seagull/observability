@@ -8,8 +8,8 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: <EC2_PUBLIC_IP>
-    http:
+  # - host: 44.208.167.64
+  - http:
       paths:
       - path: /prometheus
         pathType: Prefix
